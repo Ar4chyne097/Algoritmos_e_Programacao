@@ -13,5 +13,7 @@ public class EX_E {
         
         
         System.out.println("O valor da área do retângulo "+ b*h);
+
+        sc.close();
     }    
 }

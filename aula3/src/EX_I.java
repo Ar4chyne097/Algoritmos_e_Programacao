@@ -9,5 +9,7 @@ public class EX_I {
         idade = sc.nextInt();
 
         System.out.println("Sua idade em 2100 será: "+ (2100-idade));
+
+        sc.close();
     }
 }

@@ -9,5 +9,7 @@ public class EX_C {
         salario = sc.nextInt();
         
         System.out.println("Após um aumento de 25%, o novo valor é:"+ (salario*1.25));
+
+        sc.close();
     }    
 }

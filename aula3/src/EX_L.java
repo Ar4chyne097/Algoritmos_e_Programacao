@@ -12,5 +12,7 @@ public class EX_L{
         anoAtual = sc.nextInt();
 
         System.out.println("Sua idade é de "+ (anoAtual-nascimento) + " anos");
+
+        sc.close();
     }
 }

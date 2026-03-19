@@ -11,5 +11,7 @@ public class EX_D {
         float nSalario = salario + ((salario*5)/100) - ((salario*7)/100);
         
         System.out.println("Após um aumento de 5% e um diminuto de 7% de impostos, o novo valor é: "+ nSalario);
+
+        sc.close();
     }    
 }

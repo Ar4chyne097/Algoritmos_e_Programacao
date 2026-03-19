@@ -12,5 +12,7 @@ public class EX_H {
         gasolina = sc.nextFloat();
 
         System.out.println("A média do consumo é: "+ (gasolina/km));
+
+        sc.close();
     }
 }

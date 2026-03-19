@@ -14,5 +14,7 @@ public class EX_J {
         float mediaP = ((p1*2)+(p2*3))/5;
 
         System.out.println("A média é: " + mediaP);
+
+        sc.close();
     }
 }

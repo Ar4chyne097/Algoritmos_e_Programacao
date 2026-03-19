@@ -14,5 +14,7 @@ public class EX_K {
         float nSalario = (salario) + ((totVendas*4)/100);
 
         System.out.print("Seu salário com o acresimo da comissão é: " + nSalario);
+
+        sc.close();
     }    
 }

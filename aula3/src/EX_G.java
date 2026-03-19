@@ -1,4 +1,3 @@
-import java.math.*;
 import java.util.Scanner;
 
 public class EX_G {
@@ -13,5 +12,7 @@ public class EX_G {
         r = (p/(Math.PI * 2));
 
         System.out.println("O valor do raio é: "+ r);
+
+        sc.close();
     }
 }

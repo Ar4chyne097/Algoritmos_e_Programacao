@@ -15,5 +15,7 @@ public class EX_A {
         c = sc.nextInt();
 
         System.out.println("O resultado do produto:" + (a*b*c));
+
+        sc.close();
     }
 }

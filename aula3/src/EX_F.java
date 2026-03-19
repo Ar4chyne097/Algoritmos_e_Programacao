@@ -12,6 +12,8 @@ public class EX_F {
         h = sc.nextInt();
         
         
-        System.out.println("O valor da área do retângulo "+ (b*h)/2);
+        System.out.println("O valor da área do triângulo "+ (b*h)/2);
+
+        sc.close();
     }    
 }

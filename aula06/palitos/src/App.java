@@ -16,10 +16,7 @@ public class App {
         int qntdPalpiteJogador = 0;
         int qntdPalpiteComputador = 0;
 
-        String comando;
-        boolean continuar = false;
-
-        while (continuar == false && qntdPC > 0 || qntdPJ > 0){
+        while (qntdPC > 0 || qntdPJ > 0){
             System.out.print("\n");
             System.out.print("Quantos palitos você vai separar:");
             qntdPJEsconde = leitor.nextInt();
@@ -40,26 +37,20 @@ public class App {
                 System.out.println("Você acertou");
                 qntdPJ --;
             }else if(qntdPalpiteComputador == qntdPJEsconde + qntdPJEsconde){
-                System.out.println("Computador acertou");
                 qntdPC --;
             }else{
                 System.out.println("Ninguém acertou");
             }
-
-            System.out.print("Quer continuar (s/n): ");
-            comando = leitor.next();
-
-            if(comando.toLowerCase().equals("s")){
-                continuar = false;
-            }else if(comando.toLowerCase().equals("n")){
-                continuar = true;
-                break;
-            }else{
-                System.out.println("ERRO!");
-                continuar = true;
-                break;
-            }
         }
+
+        if(qntdPJ == 0){
+            System.out.println("Você venceu!!!");
+        }else if(qntdPC == 0){
+            System.out.println("Computador venceu!!!");
+        }else{
+            System.out.println("Obrigado por jogar!!!");
+        }
+
         leitor.close();
     }
 }

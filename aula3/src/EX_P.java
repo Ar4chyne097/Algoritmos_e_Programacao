@@ -8,7 +8,7 @@ public class EX_P {
         System.out.print("Digite um número real: ");
         a = leitor.nextFloat();
 
-        System.out.print("Digite outro número reaç: ");
+        System.out.print("Digite outro número real: ");
         b = leitor.nextFloat();
 
         if(a < b){

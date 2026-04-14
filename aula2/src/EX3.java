@@ -14,5 +14,7 @@ public class EX3{
         dólar = (real * cotação);
 
         System.out.println("O montante em reais em dólares usando a cotação fornecida é: "+dólar);
+
+        sc.close();
     }
 }

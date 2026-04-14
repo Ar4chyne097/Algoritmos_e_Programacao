@@ -22,5 +22,7 @@ public class IfElse{
         }else{
             System.out.println("Sua média foi: "+média + "\nReprovado!");
         }
+
+        sc.close();
     }
 }
